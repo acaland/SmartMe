@@ -9,8 +9,8 @@
 	<string name="compito_5">Görev 5</string>
 	<string name="compito_6">Görev 6</string>
 	<string name="compito_7">Görev 7</string>
-	<string name="avvia">Start</string>
-	<string name="istruzioni">Instructions</string>
+	<string name="avvia">Başlama</string>
+	<string name="istruzioni">Yönergeler</string>
 	<string name="configura_compiti">Görevleri yapılandır</string>
 	<string name="avvia_compiti">Görevleri başlat</string>
 	<string name="esegui_sequenza_compiti">Sıralı görevler yaptı</string>
