@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>DEĞER</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>TANIM</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Hazırlık gününde, önceden belirlenmemiş ipuçlarıyla gelmeyen hedef kareler için günlük
+                            ortalama
+                            doğruluk</strong> (AccDay), belirlenen süre içinde yeşil hedef karelerin (D2 veya D6,
+                        topluca
+                        düşünülen) dokunma yüzdesi olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla
+                            önceden
+                            belirlenmemiş</strong>.</p>
+                    <p>AccDay şu prosedür ile elde edilir.</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact <strong>ipuçlarıyla önceden
+                            belirlenmemiş</strong>
+                        (AccTrial) dokunulan hedef karelerin yüzdesini hesaplayın.</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için AccTrial'ın ortalamasını hesaplayın
+                        (AccSession).</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccSession'ın ortalamasını hesaplayın (AccDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccCueDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Hazırlık gününde, ipuçlarıyla önceden belirlenmiş hedef kareler için günlük ortalama
+                            doğruluk</strong>
+                        (AccCueDay), belirlenen süre içinde yeşil hedef karelerin (D2 veya D6, topluca düşünülen)
+                        dokunma
+                        yüzdesi olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla önceden
+                            belirlenmiş</strong>.
+                    </p>
+                    <p>AccCueDay şu prosedür ile elde edilir.</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact <strong>ipuçlarıyla önceden
+                            belirlenmiş</strong>
+                        (AccCueTrial) dokunulan hedef karelerin yüzdesini hesaplayın.</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için AccCueTrial'ın ortalamasını hesaplayın
+                        (AccCueSession).</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccCueSession'ın ortalamasını hesaplayın (AccCueDay).
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccStayDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Hazırlık gününde, önceki sıradaki ekrandaki aynı tarafta yer alan hedef kareleri takip
+                            etmeksizin
+                            dokunulan yeşil kalmak hedef kareleri için günlük ortalama doğruluk</strong> (AccStayDay),
+                        belirlenen süre içinde yeşil kalmak hedef karelerin (D2 veya D6, topluca düşünülen) dokunma
+                        yüzdesi
+                        olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla takip edilmeksizin</strong>.
+                        <strong>Kalmak hedef kareleri</strong>, önceki sıradaki ekrandaki aynı tarafta yer alan bir
+                        hedef
+                        kare tarafından önceden belirlenenlerdir: örneğin, D2 hedef karesi D2 hedef karesi tarafından
+                        önceden belirlenen veya D6 hedef karesi D6 hedef karesi tarafından önceden belirlenen.</p>
+                    <p>AccStayDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact (AccStayTrial) <strong>ipuçlarıyla takip
+                            edilmeksizin</strong>
+                        dokunulan kalmak hedef karelerin yüzdesini hesaplayın.&nbsp;</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için AccStayTrial'ın ortalamasını hesaplayın
+                        (AccStaySession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccStaySession'ın ortalamasını hesaplayın
+                        (AccStayDay).
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccChangeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Önceki sıradaki ekrandaki karşı tarafta yer alan hedef kareleri takip etmeksizin
+                            dokunulan
+                            yeşil değişim hedef kareleri için günlük ortalama doğruluk</strong> (AccChangeDay),
+                        belirlenen süre içinde yeşil değişim hedef karelerin (D2 veya D6, topluca düşünülen) dokunma
+                        yüzdesi
+                        olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla takip edilmeksizin</strong>.
+                        <strong>Değişim hedef kareleri</strong>, önceki sıradaki ekrandaki karşı tarafta yer alan bir
+                        hedef
+                        kare tarafından önceden belirlenenlerdir: örneğin, D2 hedef karesi D6 hedef karesi tarafından
+                        önceden belirlenen veya D6 hedef karesi D2 hedef karesi tarafından önceden belirlenen.</p>
+                    <p>AccChangeDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact (AccChangeTrial) <strong>ipuçlarıyla takip
+                            edilmeksizin</strong>
+                        dokunulan değişim hedef karelerin yüzdesini hesaplayın.&nbsp;</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için AccChangeTrial'ın ortalamasını hesaplayın
+                        (AccChangeSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccChangeSession'ın ortalamasını hesaplayın
+                        (AccChangeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Önceden belirlenmemiş ipuçlarıyla gelmeyen hedef kareleri için günlük ortalama tepki
+                            süresi</strong>
+                        (ReactTimeDay), belirlenen süre içinde yeşil hedef karelerin (D2 veya D6, topluca düşünülen)
+                        dokunma
+                        süresi olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla önceden
+                            belirlenmemiş</strong>.
+                    </p>
+                    <p>ReactTimeDay şu prosedür ile elde edilir.</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact <strong>ipuçlarıyla önceden
+                            belirlenmemiş</strong>
+                        (ReactTimeTrial) dokunulan hedef karelerin süresini hesaplayın <strong>ipuçlarıyla önceden
+                            belirlenmemiş</strong>.</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için ReactTimeTrial'ın ortalamasını hesaplayın
+                        (ReactTimeSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeSession'ın ortalamasını hesaplayın
+                        (ReactTimeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeCueDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Önceden belirlenmiş ipuçlarıyla gelmiş hedef kareleri için günlük ortalama tepki
+                            süresi</strong>
+                        (ReactTimeCueDay), belirlenen süre içinde yeşil hedef karelerin (D2 veya D6, topluca düşünülen)
+                        dokunma süresi olarak tanımlanır, bu süre içinde (Treact) <strong>ipuçlarıyla önceden
+                            belirlenmiş</strong>.
+                    </p>
+                    <p>ReactTimeDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact (ReactTimeCueTrial) <strong>ipuçlarıyla önceden
+                            belirlenmiş</strong> dokunulan hedef karelerin süresini hesaplayın.&nbsp;</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için ReactTimeCueTrial'ın ortalamasını hesaplayın
+                        (ReactTimeCueSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeCueSession'ın ortalamasını hesaplayın
+                        (ReactTimeCueDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeStayDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günün Ortalama Reaksiyon Zamanı</strong> <strong>stay target kareleri için
+                        </strong>(ReactTimeStayDay), belirtilen süre içinde (Treact) <strong>ipuçlarıyla takip
+                            edilmeksizin</strong> yeşil stay target karelerini (D2 veya D6, topluca düşünülen) dokunma
+                        süresi olarak tanımlanır, bir çalışma gününde. Bir önceki paragrafta tanımlandığı gibi,
+                        <strong><em>stay kareleri</em></strong> önceki sıradaki ekrandaki aynı tarafta yer alan bir
+                        hedef kare tarafından belirlenenlerdir: örneğin, D2 hedef karesi D2 hedef karesi tarafından
+                        belirlenen veya D6 hedef karesi D6 hedef karesi tarafından belirlenen.</p>
+                    <p>ReactTimeStayDay aşağıdaki prosedürle elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact (ReactTimeStayTrial) <strong>ipuçlarıyla takip
+                            edilmeksizin</strong> yeşil stay target karelerini dokunma süresini hesaplayın.&nbsp;</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için ReactTimeStayTrial'ın ortalamasını hesaplayın
+                        (ReactTimeStaySession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeStaySession'ın ortalamasını hesaplayın
+                        (ReactTimeStayDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeChangeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günün Ortalama Reaksiyon Zamanı</strong> <strong>change target kareleri için</strong>
+                        (ReactTimeChangeDay), belirtilen süre içinde (Treact) <strong>ipuçlarıyla takip
+                            edilmeksizin</strong> yeşil change target karelerini (D2 veya D6, topluca düşünülen) dokunma
+                        süresi olarak tanımlanır, bir çalışma gününde. Bir önceki paragrafta tanımlandığı gibi,
+                        <strong><em>change kareleri</em></strong> önceki sıradaki ekrandaki karşı tarafta yer alan bir
+                        hedef kare tarafından belirlenenlerdir: örneğin, D2 hedef karesi D2 hedef karesi tarafından
+                        belirlenen veya D6 hedef karesi D6 hedef karesi tarafından belirlenen.</p>
+                    <p>ReactTimeChangeDay aşağıdaki prosedürle elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, belirlenen süre içinde Treact (ReactTimeChangeTrial) <strong>ipuçlarıyla
+                            takip edilmeksizin</strong> yeşil change target karelerini dokunma süresini
+                        hesaplayın.&nbsp;</p>
+                    <p>2) Her oturum için, oturumdaki tüm denemeler için ReactTimeChangeTrial'ın ortalamasını hesaplayın
+                        (ReactTimeChangeSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeChangeSession'ın ortalamasını hesaplayın
+                        (ReactTimeChangeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Ort 7 gün</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değeri önceki 7 çalışma günü boyunca olan ortalama eğilimi gösterir</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Ort 30 gün</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değeri önceki 30 çalışma günü boyunca olan ortalama eğilimi gösterir</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>VALORE</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>DEFINIZIONE</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target non preceduti dai quadrati
+                            cue</strong>
+                        (AccDay), definita come la percentuale dei quadrati target verdi (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso (Treact)<strong> non preceduti dai quadrati
+                            cue</strong>, in
+                        una giornata di lavoro.</p>
+                    <p>AccDay si ottiene con la seguente procedura.</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact non preceduti dai quadrati cue (AccTrial).</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccTrial per tutte le prove previste dalla
+                        sessione (AccSession).</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccSession per tutte le sessioni svolte
+                        (AccDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccCueDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target preceduti dai quadrati cue</strong>
+                        (AccCueDay), definita come la percentuale dei quadrati target verdi (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso (Treact)<strong> preceduti dai quadrati cue</strong>, in
+                        una
+                        giornata di lavoro.</p>
+                    <p>AccCueDay si ottiene con la seguente procedura.</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact preceduti dai quadrati cue (AccCueTrial).</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccTrial per tutte le prove previste dalla
+                        sessione (AccCueSession).</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccSession per tutte le sessioni svolte
+                        (AccCueDay)</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccStayDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati stay target</strong> (AccStayDay), definita
+                        come
+                        la percentuale dei quadrati stay target verdi (D2 o D6, complessivamente considerati) toccati
+                        nel
+                        tempo concesso (Treact)<strong> indipendentemente se seguiti o meno da quadrati cue</strong>, in
+                        una
+                        giornata di lavoro. I <strong><em>quadrati stay</em></strong> <strong><em>target
+                            </em></strong>sono
+                        quelli preceduti da un quadrato target posto nello stesso lato dello schermo nella sequenza
+                        precedente: e.g. quadrato target D2 preceduto da un quadrato target D2 oppure quadrato target D6
+                        preceduto da un quadrato target D6.</p>
+                    <p>AccStayDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati stay target (D2 o D6) toccati nel tempo
+                        concesso Treact (AccStayTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccStayTrial per tutte le prove previste
+                        dalla
+                        sessione (AccStaySession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccStaySession per tutte le sessioni svolte
+                        (AccStayDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccChangeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati change target </strong>(AccChangeDay),
+                        definita
+                        come la percentuale dei quadrati change target (D2 o D6, complessivamente considerati) toccati
+                        nel
+                        tempo concesso (Treact)<strong> indipendentemente se seguiti o meno da quadrati cue</strong>, in
+                        una
+                        giornata di lavoro. I <strong><em>quadrati change target </em></strong>sono quelli preceduti da
+                        un
+                        quadrato target posto nel lato opposto dello schermo: quadrato target D2 preceduto da un
+                        quadrato
+                        target D6 oppure quadrato target D6 preceduto da un quadrato target D2.</p>
+                    <p>AccChangeDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati change target (D2 o D6) toccati nel
+                        tempo
+                        concesso Treact (AccChangeTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccChangeTrial per tutte le prove previste
+                        dalla
+                        sessione (AccChangeSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccChangeSession per tutte le sessioni
+                        svolte
+                        (AccChangeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati target non preceduti
+                            dai
+                            quadrati cue</strong> (ReactTimeDay), definito come il tempo di reazione per toccare i
+                        quadrati
+                        target verdi (D2 o D6, complessivamente considerati) nel tempo concesso (Treact)<strong> non
+                            preceduti dai quadrati cue</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeDay si ottiene con la seguente procedura.</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel
+                        tempo concesso Treact (ReactTimeTrial) non preceduti dai quadrati cue.</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeTrial per tutte le prove previste
+                        dalla
+                        sessione (ReactTimeSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeSession per tutte le sessioni
+                        svolte
+                        (ReactTimeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeCueDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati target preceduti dai
+                            quadrati cue</strong> (ReactTimeCueDay), definito come il tempo di reazione per toccare i
+                        quadrati target verdi (D2 o D6, complessivamente considerati) nel tempo concesso
+                        (Treact)<strong>
+                            preceduti dai quadrati cue</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel
+                        tempo concesso Treact (ReactTimeCueTrial) preceduti dai quadrati cue.&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeTrial per tutte le prove previste
+                        dalla
+                        sessione (ReactTimeCueSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeSession per tutte le sessioni
+                        svolte
+                        (ReactTimeCueDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeStayDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati stay target
+                        </strong>(ReactTimeStayDay), definito come il tempo di reazione per toccare i quadrati stay
+                        target
+                        verdi (D2 o D6, complessivamente considerati) nel tempo concesso (Treact)<strong>
+                            indipendentemente
+                            se seguiti o meno da quadrati cue</strong>, in una giornata di lavoro. Come definito in un
+                        paragrafo precedente, i <strong><em>quadrati stay</em></strong> <strong><em>target
+                            </em></strong>sono quelli preceduti da un quadrato target posto nello stesso lato dello
+                        schermo:
+                        quadrato target D2 preceduto da un quadrato target D2 oppure quadrato target D6 preceduto da un
+                        quadrato target D6.</p>
+                    <p>ReactTimeStayDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati stay target verdi (D2 o
+                        D6)
+                        nel tempo concesso Treact (ReactTimeStayTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeStayTrial per tutte le prove
+                        previste
+                        dalla sessione (ReactTimeStaySession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeStaySession per tutte le sessioni
+                        svolte (ReactTimeStayDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeChangeDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati change
+                            target</strong>
+                        (ReactTimeChangeDay), definito come il tempo di reazione per toccare i quadrati change target
+                        verdi
+                        (D2 o D6, complessivamente considerati) nel tempo concesso (Treact)<strong> indipendentemente se
+                            seguiti o meno da quadrati cue</strong>, in una giornata di lavoro. Come definito in un
+                        paragrafo precedente, i <strong><em>quadrati change</em></strong> <strong><em>target
+                            </em></strong>sono quelli preceduti da un quadrato target posto nello stesso lato dello
+                        schermo:
+                        quadrato target D2 preceduto da un quadrato target D2 oppure quadrato target D6 preceduto da un
+                        quadrato target D6.</p>
+                    <p>ReactTimeChangeDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati change target verdi (D2
+                        o
+                        D6) nel tempo concesso Treact (ReactTimeChangeTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeChangeTrial per tutte le prove
+                        previste
+                        dalla sessione (ReactTimeChangeSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeChangeSession per tutte le sessioni
+                        svolte (ReactTimeChangeDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 7 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 30 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
