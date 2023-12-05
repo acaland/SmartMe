@@ -21,7 +21,7 @@
 	<string name="paziente">Hasta</string>
 	<string name="day">Iş günü</string>
 	<string name="home">Ev</string>
-	<string name="compito_">Görev _</string>
+	<string name="compito_">Görev_</string>
 	<string name="esecuzione">Uygulamak</string>
 	<string name="elenco_compiti">Görev listesi</string>
 	<string name="elenco_giornate">Gün listesi</string>
