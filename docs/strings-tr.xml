@@ -73,6 +73,7 @@
 	<string name="surname">Soyadı</string>
 	<string name="birthdate">Doğum tarihi</string>
 	<string name="gender">Seks</string>
+	<string name="researchUnit">Araştırma Birimi / Hastane</string>
 	<string name="educationYears">Eğitim yılı</string>
 	<string name="diagnosis">Teşhis</string>
 	<string name="logout">Çıkış Yap</string>

@@ -73,6 +73,7 @@
 	<string name="surname">Last name</string>
 	<string name="birthdate">Date of birth</string>
 	<string name="gender">Sex</string>
+	<string name="researchUnit">Research Unit / Hospital</string>
 	<string name="educationYears">Years of education</string>
 	<string name="diagnosis">Diagnosis</string>
 	<string name="logout">Logout</string>

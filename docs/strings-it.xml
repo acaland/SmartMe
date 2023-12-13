@@ -73,6 +73,7 @@
 	<string name="surname">Cognome</string>
 	<string name="birthdate">Data di nascita</string>
 	<string name="gender">Sesso</string>
+	<string name="researchUnit">Unità di ricerca / Ospedale</string>
 	<string name="educationYears">Anni di educazione</string>
 	<string name="diagnosis">Diagnosi</string>
 	<string name="logout">Logout</string>
