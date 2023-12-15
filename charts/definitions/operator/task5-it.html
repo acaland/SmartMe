@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>VALORE</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>DEFINIZIONE</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccValidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target &ldquo;valid&rdquo; preceduti dai
+                            quadrati cue dello stesso lato</strong> (AccValidDay), definita come la percentuale dei
+                        quadrati target verdi (D2 o D6, complessivamente considerati) toccati nel tempo concesso
+                        (Treact)<strong> preceduti dai quadrati cue dello stesso lato</strong>, in una giornata di
+                        lavoro.</p>
+                    <p>AccValidDay si ottiene con la seguente procedura.</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact preceduti dai quadrati cue dello stesso lato
+                        (AccValidTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccValidTrial per tutte le prove previste
+                        dalla sessione (AccValidSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccSession per tutte le sessioni svolte
+                        (AccValidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccInvalidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target &ldquo;invalid&rdquo; preceduti dai
+                            quadrati cue</strong> <strong>del lato opposto</strong> (AccInvalidDay), definita come la
+                        percentuale dei quadrati target verdi (D2 o D6, complessivamente considerati) toccati nel tempo
+                        concesso (Treact)<strong> preceduti dai quadrati cue del lato opposto</strong>, in una giornata
+                        di lavoro.</p>
+                    <p>AccInvalidDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact preceduti dai quadrati cue del lato opposto
+                        (AccInvalidTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccTrial per tutte le prove previste dalla
+                        sessione (AccInvalidSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccSession per tutte le sessioni svolte
+                        (AccInvalidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeValidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati target
+                            &ldquo;valid&rdquo; preceduti dai quadrati cue dello stesso lato</strong>
+                        (ReactTimeValidDay), definito come il tempo di reazione per toccare i quadrati target verdi (D2
+                        o D6, complessivamente considerati) nel tempo concesso (Treact)<strong> preceduti dai quadrati
+                            cue dello stesso lato</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeValidDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel tempo concesso Treact (ReactTimeValidTrial) preceduti dai quadrati cue dello stesso
+                        lato.&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeInvalidTrial per tutte le prove
+                        previste dalla sessione (ReactTimeValidSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeInvalidSession per tutte le
+                        sessioni svolte (ReactTimeValidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeInvalidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati target
+                            &ldquo;invalid&rdquo; preceduti dai quadrati cue</strong> <strong>del lato opposto</strong>
+                        (ReactTimeInvalidDay), definito come il tempo di reazione per toccare i quadrati target verdi
+                        (D2 o D6, complessivamente considerati) nel tempo concesso (Treact)<strong> preceduti dai
+                            quadrati cue del lato opposto</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeInvalidDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel tempo concesso Treact (ReactTimeInvalidTrial) preceduti dai quadrati cue del lato
+                        opposto.&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeInvalidTrial per tutte le prove
+                        previste dalla sessione (ReactTimeInvalidSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeInvalidSession per tutte le
+                        sessioni svolte (ReactTimeInvalidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 7 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 30 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

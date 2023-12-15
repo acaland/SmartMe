@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>DEĞER</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>TANIM</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccValidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günlük ortalama doğruluk "geçerli" hedef kareleri tarafından yönlendirilen ipuçlarıyla</strong>
+                        (AccValidDay), bir çalışma gününde belirtilen süre içinde (Treact)<strong> aynı tarafta yönlendirilen
+                            ipuçlarıyla</strong>, yeşil hedef karelerin (D2 veya D6, topluca düşünülen) dokunulan yüzdesi
+                        olarak tanımlanır.</p>
+                    <p>AccValidDay şu prosedür ile elde edilir.</p>
+                    <p>1) Her deneme için, aynı tarafta yönlendirilen ipuçlarıyla belirlenen (D2 veya D6, topluca
+                        düşünülen) hedef karelerin belirtilen süre içinde (Treact) dokunulan yüzdesini hesaplayın
+                        (AccValidTrial).&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için AccValidTrial'ın ortalamasını hesaplayın
+                        (AccValidSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccSession'ın ortalamasını hesaplayın
+                        (AccValidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccInvalidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günlük ortalama doğruluk "geçersiz" hedef kareleri tarafından yönlendirilen ipuçlarıyla</strong>
+                        <strong>karşı tarafta</strong> (AccInvalidDay), bir çalışma gününde belirtilen süre içinde (Treact)<strong>
+                            karşı tarafta yönlendirilen ipuçlarıyla</strong>, yeşil hedef karelerin (D2 veya D6, topluca
+                        düşünülen) dokunulan yüzdesi olarak tanımlanır.</p>
+                    <p>AccInvalidDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, karşı tarafta yönlendirilen ipuçlarıyla belirlenen (D2 veya D6, topluca
+                        düşünülen) hedef karelerin belirtilen süre içinde Treact tarafından dokunulan yüzdesini
+                        hesaplayın (AccInvalidTrial).&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için AccTrial'ın ortalamasını hesaplayın
+                        (AccInvalidSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için AccSession'ın ortalamasını hesaplayın
+                        (AccInvalidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeValidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günlük ortalama reaksiyon zamanı</strong> <strong>"geçerli" hedef kareleri tarafından
+                            yönlendirilen ipuçlarıyla</strong> (ReactTimeValidDay), bir çalışma gününde belirtilen süre
+                        içinde (Treact)<strong> aynı tarafta yönlendirilen ipuçlarıyla</strong>, yeşil hedef kareleri (D2
+                        veya D6, topluca düşünülen) dokunma süresi olarak tanımlanır.</p>
+                    <p>ReactTimeValidDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, aynı tarafta yönlendirilen ipuçlarıyla belirlenen (D2 veya D6) yeşil hedef
+                        karelerin belirtilen süre içinde Treact tarafından dokunma süresini hesaplayın
+                        (ReactTimeValidTrial) .&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için ReactTimeInvalidTrial'ın ortalamasını
+                        hesaplayın (ReactTimeValidSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeInvalidSession'ın ortalamasını hesaplayın
+                        (ReactTimeValidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeInvalidDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Günlük ortalama reaksiyon zamanı</strong> <strong>"geçersiz" hedef kareleri tarafından
+                            yönlendirilen ipuçlarıyla</strong> <strong>karşı tarafta</strong> (ReactTimeInvalidDay),
+                        bir çalışma gününde belirtilen süre içinde (Treact)<strong> karşı tarafta yönlendirilen
+                            ipuçlarıyla</strong>, yeşil hedef karelerin (D2 veya D6, topluca düşünülen) dokunma süresi
+                        olarak tanımlanır.</p>
+                    <p>ReactTimeInvalidDay şu prosedür ile elde edilir.&nbsp;</p>
+                    <p>1) Her deneme için, karşı tarafta yönlendirilen ipuçlarıyla belirlenen (D2 veya D6) yeşil hedef
+                        karelerin belirtilen süre içinde Treact tarafından dokunma süresini hesaplayın
+                        (ReactTimeInvalidTrial) .&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için ReactTimeInvalidTrial'ın ortalamasını
+                        hesaplayın (ReactTimeInvalidSession).&nbsp;</p>
+                    <p>3) Her gün için, yapılan tüm oturumlar için ReactTimeInvalidSession'ın ortalamasını hesaplayın
+                        (ReactTimeInvalidDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değerin son 7 çalışma günü boyunca ortalama eğilimini gösterir</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değerin son 30 çalışma günü boyunca ortalama eğilimini gösterir</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
