@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>DEĞER</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>TANIM</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccTmaxDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Aynı taraftaki "cue" kareleri tarafından tetiklenen maksimum ön tetik zamanına sahip hedef
+                            kareler için günlük ortalama doğruluk</strong> (AccTmaxDay), belirli bir süre içinde (Treact)
+                        yeşil hedef karelerin (D2 veya D6, topluca düşünülen) dokunma yüzdesi<strong> aynı taraftaki
+                            "cue" kareleri tarafından tetiklenen maksimum ön tetik zamanına sahip</strong>, bir iş günü
+                        içinde.</p>
+                    <p>AccTmaxDay şu prosedürle elde edilir.</p>
+                    <p>1) Her deneme için, aynı taraftaki "cue" kareleri tarafından tetiklenen maksimum ön tetik zamanına
+                        sahip hedef karelerin (D2 veya D6, topluca düşünülen) belirli bir süre içinde Treact ile
+                        dokunma yüzdesini hesaplayın (AccTmaxTrial).&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için AccTmaxTrial'ın ortalamasını hesaplayın
+                        (AccTmaxSession).&nbsp;</p>
+                    <p>3) Her gün için, gerçekleştirilen tüm oturumlar için AccTmaxSession'ın ortalamasını
+                        hesaplayın(AccTmaxDay)</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccTminDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Aynı taraftaki "cue" kareleri tarafından tetiklenen minimum ön tetik zamanına sahip hedef
+                            kareler için günlük ortalama doğruluk</strong> (AccTminDay), belirli bir süre içinde (Treact)
+                        yeşil hedef karelerin (D2 veya D6, topluca düşünülen) dokunma yüzdesi<strong> aynı taraftaki
+                            "cue" kareleri tarafından tetiklenen minimum ön tetik zamanına sahip</strong>, bir iş günü
+                        içinde.</p>
+                    <p>AccTminDay şu prosedürle elde edilir.</p>
+                    <p>1) Her deneme için, aynı taraftaki "cue" kareleri tarafından tetiklenen minimum ön tetik zamanına
+                        sahip hedef karelerin (D2 veya D6, topluca düşünülen) belirli bir süre içinde Treact ile
+                        dokunma yüzdesini hesaplayın (AccTminTrial).&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için AccTminTrial'ın ortalamasını hesaplayın
+                        (AccTminSession).&nbsp;</p>
+                    <p>3) Her gün için, gerçekleştirilen tüm oturumlar için AccTminSession'ın ortalamasını
+                        hesaplayın(AccTminDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeTmaxDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Maksimum ön tetik zamanına sahip aynı taraftaki "cue" kareleri için günlük ortalama
+                            tepki süresi</strong> (ReactTimeTmaxDay), belirli bir süre içinde (Treact) yeşil hedef
+                        kareleri (D2 veya D6, topluca düşünülen) dokunma süresi<strong> aynı taraftaki "cue" kareleri
+                            tarafından tetiklenen maksimum ön tetik zamanına sahip</strong>, bir iş günü içinde.</p>
+                    <p>ReactTimeTmaxDay şu prosedürle elde edilir.</p>
+                    <p>1) Her deneme için, aynı taraftaki "cue" kareleri tarafından tetiklenen maksimum ön tetik zamanına
+                        sahip hedef kareleri (D2 veya D6) belirli bir süre içinde Treact ile dokunma süresini hesaplayın
+                        (ReactTimeTmaxTrial) .&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için ReactTimeTmaxTrial'ın ortalamasını
+                        hesaplayın (ReactTimeTmaxSession).&nbsp;</p>
+                    <p>3) Her gün için, gerçekleştirilen tüm oturumlar için ReactTimeTmaxSession'ın ortalamasını
+                        hesaplayın (ReactTimeTmaxDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeTminDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Minimum ön tetik zamanına sahip aynı taraftaki "cue" kareleri için günlük ortalama tepki
+                            süresi</strong> (ReactTimeTminDay), belirli bir süre içinde (Treact) yeşil hedef kareleri
+                        (D2 veya D6, topluca düşünülen) dokunma süresi<strong> aynı taraftaki "cue" kareleri tarafından
+                            tetiklenen minimum ön tetik zamanına sahip</strong>, bir iş günü içinde.</p>
+                    <p>ReactTimeTminDay şu prosedürle elde edilir.</p>
+                    <p>1) Her deneme için, aynı taraftaki "cue" kareleri tarafından tetiklenen minimum ön tetik zamanına
+                        sahip hedef kareleri (D2 veya D6) belirli bir süre içinde Treact ile dokunma süresini hesaplayın
+                        (ReactTimeTminTrial).&nbsp;</p>
+                    <p>2) Her oturum için, oturumda planlanan tüm denemeler için ReactTimeTminTrial'ın ortalamasını
+                        hesaplayın (ReactTimeTminSession).&nbsp;</p>
+                    <p>3) Her gün için, gerçekleştirilen tüm oturumlar için ReactTimeTminSession'ın ortalamasını
+                        hesaplayın (ReactTimeTminDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Geçen 7 iş günü boyunca değerin ortalama eğilimini gösterir</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Geçen 30 iş günü boyunca değerin ortalama eğilimini gösterir</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

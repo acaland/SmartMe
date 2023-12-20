@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>VALORE</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>DEFINIZIONE</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccTmaxDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target preceduti dai quadrati
+                            &ldquo;cue&rdquo; dello stesso lato con tempo pre-trigger max</strong> (AccTmaxDay),
+                        definita come la percentuale dei quadrati target verdi (D2 o D6, complessivamente considerati)
+                        toccati nel tempo concesso (Treact)<strong> preceduti dai quadrati &ldquo;cue&rdquo; dello
+                            stesso lato con tempo pre-trigger max</strong>, in una giornata di lavoro.</p>
+                    <p>AccTmaxDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact preceduti dai quadrati &ldquo;cue&rdquo; dello
+                        stesso lato con tempo pre-trigger max (AccTmaxTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccTmaxTrial per tutte le prove previste
+                        dalla sessione (AccTmaxSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccTmaxSession per tutte le sessioni svolte
+                        (AccTmaxDay)</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccTminDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Accuratezza media di giornata per i quadrati target preceduti dai quadrati
+                            &ldquo;cue&rdquo; dello stesso lato con tempo pre-trigger min</strong> (AccTminDay),
+                        definita come la percentuale dei quadrati target verdi (D2 o D6, complessivamente considerati)
+                        toccati nel tempo concesso (Treact)<strong> preceduti dai quadrati &ldquo;cue&rdquo; dello
+                            stesso lato con tempo pre-trigger min</strong>, in una giornata di lavoro.</p>
+                    <p>AccTminDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola la percentuale di quadrati target (D2 o D6, complessivamente
+                        considerati) toccati nel tempo concesso Treact preceduti dai quadrati &ldquo;cue&rdquo; dello
+                        stesso lato con tempo pre-trigger min (AccTminTrial).&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;AccTminTrial per tutte le prove previste
+                        dalla sessione (AccTminSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;AccTminSession per tutte le sessioni svolte
+                        (AccTminDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeTmaxDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati &ldquo;cue&rdquo;
+                            dello stesso lato con tempo pre-trigger max</strong> (ReactTimeTmaxDay), definito come il
+                        tempo di reazione per toccare i quadrati target verdi (D2 o D6, complessivamente considerati)
+                        nel tempo concesso (Treact)<strong> preceduti dai quadrati &ldquo;cue&rdquo; dello stesso lato
+                            con tempo pre-trigger max</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeTmaxDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel tempo concesso Treact (ReactTimeTmaxTrial) preceduti dai quadrati &ldquo;cue&rdquo; dello
+                        stesso lato con tempo pre-trigger max.&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeTmaxTrial per tutte le prove
+                        previste dalla sessione (ReactTimeTmaxSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeTmaxSession per tutte le sessioni
+                        svolte (ReactTimeTmaxDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeTminDay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>Tempo di reazione medio di giornata</strong> <strong>per i quadrati &ldquo;cue&rdquo;
+                            dello stesso lato con tempo pre-trigger min</strong> (ReactTimeTminDay), definito come il
+                        tempo di reazione per toccare i quadrati target verdi (D2 o D6, complessivamente considerati)
+                        nel tempo concesso (Treact)<strong> preceduti dai quadrati &ldquo;cue&rdquo; dello stesso lato
+                            con tempo pre-trigger min</strong>, in una giornata di lavoro.</p>
+                    <p>ReactTimeTminDay si ottiene con la seguente procedura.&nbsp;</p>
+                    <p>1) Per ogni prova, si calcola il tempo di reazione per toccare i quadrati target verdi (D2 o D6)
+                        nel tempo concesso Treact (ReactTimeTminTrial) preceduti dai quadrati &ldquo;cue&rdquo; dello
+                        stesso lato con tempo pre-trigger min.&nbsp;</p>
+                    <p>2) Per ogni sessione, si calcola la media dell&rsquo;ReactTimeTminTrial per tutte le prove
+                        previste dalla sessione (ReactTimeTminSession).&nbsp;</p>
+                    <p>3) Per ogni giornata, si calcola la media dell&rsquo;ReactTimeTminSession per tutte le sessioni
+                        svolte (ReactTimeTminDay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 7 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Indica l'andamento medio del valore rispetto alle 30 giornate di lavoro precedenti</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
