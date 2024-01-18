@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <table style="border-collapse: collapse; width: 100%; height: 100%; font-family: Arial, sans-serif;" border="1"
+        cellspacing="10" cellpadding="10">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>DEĞER</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>TANIM</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccGODay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>D4 hedef GO karelerine verilen günlük ortalama doğruluk</strong> (AccGODay), verilen süre
+                        içinde (Treact) yeşil hedef karelerin (D4) dokunulan yüzdesi olarak tanımlanır, bir iş
+                        gününde.</p>
+                    <p>AccGODay, şu prosedürle elde edilir.</p>
+                    <p>1) Her bir deneme için, yeşil hedef karelerin (D4) verilen süre içinde dokunulan yüzdesini
+                        hesaplayın
+                        (AccGOTrial).</p>
+                    <p>2) Her bir oturum için, oturumda planlanan tüm denemeler için AccGOTrial'in ortalamasını
+                        hesaplayın
+                        (AccGOSession).</p>
+                    <p>3) Her bir gün için, gerçekleştirilen tüm oturumlar için AccGOSession'ın ortalamasını
+                        hesaplayın
+                        (AccGODay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>AccNOGODay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>D4 NOGO karelerine verilen günlük ortalama doğruluk</strong> (AccNOGODay), verilen süre
+                        içinde (Treact) doğru bir şekilde dokunulmamış kırmızı hedef karelerin NOGO yüzdesi olarak
+                        tanımlanır, bir iş gününde.</p>
+                    <p>AccNOGODay, şu prosedürle elde edilir.</p>
+                    <p>1) Her bir deneme için, verilen süre içinde doğru bir şekilde dokunulmamış kırmızı hedef karelerin
+                        NOGO yüzdesini hesaplayın (AccNOGOTrial).</p>
+                    <p>2) Her bir oturum için, oturumda planlanan tüm denemeler için AccNOGOTrial'in ortalamasını
+                        hesaplayın
+                        (AccNOGOSession).</p>
+                    <p>3) Her bir gün için, gerçekleştirilen tüm oturumlar için AccNOGOSession'ın ortalamasını
+                        hesaplayın
+                        (AccNOGODay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>ReactTimeGODay</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p><strong>D4 hedef GO karelerine verilen günlük ortalama tepki süresi</strong>
+                        (ReactTimeGODay), verilen süre içinde (Treact) yeşil hedef kareleri (D4) dokunmak için tepki
+                        süresi olarak tanımlanır, bir iş gününde.</p>
+                    <p>ReactTimeGODay, şu prosedürle elde edilir.</p>
+                    <p>1) Her bir deneme için, verilen süre içinde yeşil hedef kareleri (D4) dokunmak için tepki süresini
+                        hesaplayın (ReactTimeGOTrial).</p>
+                    <p>2) Her bir oturum için, oturumda planlanan tüm denemeler için ReactTimeGOTrial'in ortalamasını
+                        hesaplayın (ReactTimeGOSession).</p>
+                    <p>3) Her bir gün için, gerçekleştirilen tüm oturumlar için ReactTimeGOSession'ın ortalamasını
+                        hesaplayın (ReactTimeGODay).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 7 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değerin önceki 7 iş günü boyunca ortalamasını gösterir.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p><strong>Avg 30 days</strong></p>
+                </td>
+                <td style="vertical-align: top;">
+                    <p>Değerin önceki 30 iş günü boyunca ortalamasını gösterir.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
