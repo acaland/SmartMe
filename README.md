@@ -1,6 +1,6 @@
 # SmartMe app
 
-Info available at: https://smartme.cloud.garr.it
+Info available at: http://smartme.cloud.garr.it
 
 
 ## Download
